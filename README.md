@@ -1,2 +1,8 @@
 # Pedestrian-Recognition
-A program based on Convolutional Neural Network to recognize pedestrians in given images.
+Based on Convolutional Neural Network to recognize and mark pedestrians in given images.
+
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/pred1.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/pred2.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/pred3.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/pred4.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/pred5.png)
