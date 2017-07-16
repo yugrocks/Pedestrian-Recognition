@@ -23,15 +23,10 @@ def init_dataset():
         X.append(np.array(Image.open("Dataset/training_set/ped/"+_)).flatten())
         y.append(1)
         
-    #for _ in os.listdir("Dataset/training_set2/ped"):
-     #   X.append(np.array(Image.open("Dataset/training_set2/ped/"+_)).flatten())
-      #  y.append(1)
-        
-    for _ in os.listdir(r"C:\Users\Yugal\Anaconda3\Projects\The pedestrians dataset128x64"):
-        
-        img=cv2.cvtColor(cv2.resize(np.array(Image.open(r"C:\Users\Yugal\Anaconda3\Projects\The pedestrians dataset128x64/"+_)), (18,36), interpolation = cv2.INTER_AREA),cv2.COLOR_BGR2GRAY)
-        X.append(img.flatten())
+    for _ in os.listdir("Dataset/training_set2/ped"):
+        X.append(np.array(Image.open("Dataset/training_set2/ped/"+_)).flatten())
         y.append(1)
+        
     
     #negative examples    
     for _ in os.listdir("Dataset/training_set/non_ped"):
