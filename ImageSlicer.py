@@ -19,10 +19,10 @@ class ImageSlicer:
         new_row = 128
         new_colm = int(new_row/a_ratio)
         new_img = cv2.resize(new_img, (new_colm,new_row), interpolation = cv2.INTER_AREA)
-        
-        #convert both to grayscale
+        original_img = cv2.resize(original_img, (new_colm,new_row), interpolation = cv2.INTER_AREA)
+        #convert new_one to grayscale
         new_img = cv2.cvtColor(new_img,cv2.COLOR_BGR2GRAY)
-        original_img = cv2.cvtColor(original_img,cv2.COLOR_BGR2GRAY)
+        
         
         self.original_img = original_img
         self.new_img = new_img
@@ -57,7 +57,7 @@ class ImageSlicer:
                     end2=self.new_img.shape[0]
 
                 
-                patches.append([self.new_img[start2:end2,start:end] , (start, start2, end, end2)])                          
+                patches.append([self.new_img[start2:end2,start:end] , [start, start2, end, end2]])                          
                 start2 += stride_vertical 
                 end2 += stride_vertical
                 
@@ -92,23 +92,3 @@ class ImageSlicer:
         for _ in self.get_all_slides():
             cv2.imshow("patch",_[0])
             cv2.waitKey(0)
-        
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
