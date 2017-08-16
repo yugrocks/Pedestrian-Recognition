@@ -4,11 +4,11 @@ I am currently improving the model and diagnosing the pipeline. More details wil
 
 # RESULTS BASED ON CURRENT MODEL:  
 ## model 3  
-![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img1.png)   
-![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img2.png)   
-![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img3.png)   
-![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img4.png)     
-![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img5.png)     
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img1.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img2.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img3.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img4.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img5.png)
 
 ## previous models 2 and 1   
 ### AFTER NON-MAXIMA SUPPRESSION:   
