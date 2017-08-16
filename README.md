@@ -9,6 +9,7 @@ I am currently improving the model and diagnosing the pipeline. More details wil
 ![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img3.png)
 ![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img4.png)
 ![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img5.png)
+![alt tag](https://raw.githubusercontent.com/yugrocks/Pedestrian-Recognition/master/model3/img6.png)
 
 ## previous models 2 and 1   
 ### AFTER NON-MAXIMA SUPPRESSION:   
